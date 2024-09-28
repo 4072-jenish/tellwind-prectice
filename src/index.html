@@ -7,8 +7,8 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-    
-    <header class="">
+    <!-- HEADER -->
+    <header>
         <div class="2xl:container mx-auto py-5">
             <div class="row flex justify-between items-center">
                 <div class="logo">
@@ -26,7 +26,7 @@
             </div>
         </div>
     </header>
-
+    <!-- BANNER -->
     <section class="banner bg-purple-700 p-[100px]">
         <div class="2xl:container mx-auto py-5">
             <h1 class="text-white text-[50px] font-semibold mb-7">Protect Your Online Presence with SecureWeb: Your Trusted Web Security Partner</h1>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-
+    <!-- SERVICES -->
     <section class="Services mt-[100px]">
           <div class="2xl:container mx-auto">
             <div class="services-top flex grid grid-cols-2">
@@ -89,23 +89,97 @@
             </div>
           </div>
     </section>
-
-    <section class="Feachers mt-[100px]">
-        <div class="2xl:container mx-auto">
-            <div class="row bg-fuchsia-100 rounded-xl border-2 grid grid-cols-2 p-8">
+    <!-- FEATUERS -->
+    <section class="Feachers mt-[100px] mb-[100px]">
+        <div class="xl:container mx-auto">
+            <div class="row bg-purple-200 rounded-xl border-2 grid grid-cols-2 p-12 gap-8 items-center border-5">
                 <div class="featuer-part-1">
-                    <h1 class="text-[30px] font-bold">Tailored Cybersecurity Strategies</h1>
-                    <div class="featuer-span mt-5">
-                    <span>Phishing</span>
-                    <span>Encryption</span>
-                    <span>Vulnerability</span>
+                    <h1 class="text-[50px] font-bold mb-[50px]">Tailored Cybersecurity Strategies</h1>
+                    <div class="featuer-span mt-5 text-[25px] pb-5">
+                    <span class="bg-white p-6 rounded-t-xl">Phishing</span>
+                    <span class="ms-5">Encryption</span>
+                    <span class="ms-5">Vulnerability</span>
                     </div>
-                    <h3 class="text-[20px] font-semibold">Friendly team of experts</h3>
+                  <div class="banner-dics bg-white p-8 rounded-xl">
+                    <img src="../img/sec-3.webp" title="banner-img" alt="banner-img" class="size-[99px]">
+                    <h3 class="text-[25px] font-semibold my-5">Friendly team of experts</h3>
                     <p class="font-medium">
                         These expanded hero headings provide more context about your agency's commitment to customer service and convey a sense of dedication and excellence in your services. Feel free to choose the ones that best resonate with your agency's values and messaging.
                     </p>
+                  </div>
                 </div>
-                <div class="featuer-part-2"></div>
+                <div class="featuer-part-2">
+                    <div class="featuer-info flex gap-10">
+                        <div class="info-cards-1 mt-8">
+                            <div class="infocard text-center bg-white p-12 rounded-xl mb-8 shadow-md hover:translate-y-[-8px] ease-in-out duration-300">
+                                <h4 class="text-[30px] font-extrabold text-purple-800">99%</h4>
+                                <h4 class="text-[20px]">Customers Satisfaction</h4>
+                            </div>
+                            <div class="infocard text-center bg-white p-12 rounded-xl shadow-md hover:translate-y-[-8px] ease-in-out duration-300">
+                                <h4 class="text-[30px] font-extrabold text-purple-800">1545+</h4>
+                                <h4 class="text-[20px]">Businesses Served  with Security</h4>
+                            </div>
+                        </div>
+                        <div class="info-cards-1">
+                            <div class="infocard text-center bg-white p-12 rounded-xl mb-8 shadow-md hover:translate-y-[-8px] ease-in-out duration-300">
+                                <h4 class="text-[30px] font-extrabold text-purple-800">250k+</h4>
+                                <h4 class="text-[20px]">Vulnerability Removed</h4>
+                            </div>
+                            <div class="infocard text-center bg-white p-12 rounded-xl shadow-md hover:translate-y-[-8px] ease-in-out duration-300">
+                                <h4 class="text-[30px] font-extrabold text-purple-800">84k+</h4>
+                                <h4 class="text-[20px]">Networks Protected  by Our Team</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects bg-black">
+        <div class="2xl:container mx-auto">
+            <div class="project-top grid grid-cols-2 pt-[100px] justify-between gap-12 mb-10">
+                <div class="project-heading ">
+                    <h1 class="text-[35px] font-bold text-white">Projects We’ve Done for Big Companies</h1>
+                    <button class="bg-purple-700 border-spacing-5 px-5 py-3 text-white rounded-xl border-2 flex items-center my-8 hover:bg-black ease-in-out duration-300">View Our Services <img src="../img/download (5).svg" alt="" class="size-[20px] ms-4">
+                    </button>
+                </div>
+                <div class="project-dics">
+                    <p class="text-[20px] font-medium text-white">Whether you're a small business or a large enterprise, our commitment remains unwavering: to empower you with the tools and expertise needed to navigate the complexities of cybersecurity with confidence.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-cards grid grid-cols-2 flex gap-5 mb-8">
+                    <div class="project-card bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-10">
+                        <img src="../img/project-1.png" title="project" alt="project" class="size-[50px] mb-20">
+                        <h1 class="text-[50px] font-bold text-white">97%</h1>
+                        <p class="text-[20px] text-white font-medium">Platform Secured</p>
+                    </div>
+                    <div class="project-card bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-10">
+                        <img src="../img/project-2.png" title="project" alt="project" class="size-[50px] mb-20">
+                        <h1 class="text-[50px] font-bold text-white">97%</h1>
+                        <p class="text-[20px] text-white font-medium">Platform Secured</p>
+                    </div>
+                </div>
+                <div class="project-cards grid grid-cols-3 flex gap-5">
+                    <div class="project-card bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-10">
+                        <img src="../img/project-3.png" title="project" alt="project" class="size-[50px] mb-20">
+                        <h1 class="text-[50px] font-bold text-white">100%</h1>
+                        <p class="text-[20px] text-white font-medium">Platform Secured</p>
+                    </div>
+
+                    <div class="project-card bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-10">
+                        <img src="../img/project-4.png" title="project" alt="project" class="size-[50px] mb-20">
+                        <h1 class="text-[50px] font-bold text-white">98%</h1>
+                        <p class="text-[20px] text-white font-medium">Platform Secured</p>
+                    </div>
+
+                    <div class="project-card bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-10">
+                        <img src="../img/project-5.png" title="project" alt="project" class="size-[50px] mb-20">
+                        <h1 class="text-[50px] font-bold text-white">95%</h1>
+                        <p class="text-[20px] text-white font-medium">Platform Secured</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
